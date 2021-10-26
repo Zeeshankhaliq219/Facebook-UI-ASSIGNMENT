@@ -14,13 +14,19 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: white;
+    position: sticky;
+    top: 0px;
     box-shadow: 0 2px 4px rgb(0 0 0 / 0.1);
+    
 }
 .left_header{
     display: flex;
     justify-content: space-between;
     align-content: center;
     margin-top: 18px;
+    background-color: transparent;
+    
+    z-index: -100;
 }
 
 .left_header span a i {
@@ -35,7 +41,6 @@ body {
     background-color: #f2f3f5;
     padding: 13px;
     border-radius: 25px;
-    width: 300pxpx;
     border-style: none;
     border-color: none;
 
@@ -106,3 +111,33 @@ background-color: #f2f3f5;
 padding: 13px;
  border-radius: 9px;
 }
+/* CONTAINER */
+.container{
+    display: flex;
+    position: sticky;
+    top: 0;
+    
+    
+}
+/* LEFT_SIDE */
+
+.left_side{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    width: 22%;
+    position: sticky;
+    top: 80px;
+    font-size: 19px;
+    padding: 2px;
+    
+    
+}
+.left_side span{
+    padding: 11px;
+}
+
+.left_side span:hover{
+    background-color: #f2f3f5;
+}
+  
