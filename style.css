@@ -114,9 +114,7 @@ padding: 13px;
     display: flex;
     position: sticky;
     top: 0;
-    background-color: #f0f2f5;
-    
-    
+    background-color: #f0f2f5;    
 }
 
 /* LEFT_SIDE */
@@ -124,15 +122,15 @@ padding: 13px;
 .left_side{
     display: flex;
     flex-direction: column;
-    overflow: scroll;
     width: 22%;
     height: 600px;
     position: sticky;
     top: 80px;
     font-size: 19px;
     padding: 2px;
-    
-    
+}
+.left_side:hover{
+    overflow: scroll;
 }
 .left_side span{
     padding: 11px;
@@ -144,9 +142,11 @@ padding: 13px;
 .center{
     display: flex;
     flex-direction: column;
-    overflow: scroll;
     width: 59%;
     height: 600px;
+}
+.center:hover{
+    overflow: scroll;
 }
 #imgcenter{
     display: flex;
@@ -229,12 +229,14 @@ padding: 13px;
 .right_side{
     display: flex;
     flex-direction: column;
-    overflow: scroll;
     width: 19%;
     height: 600px;
     float: right;
     position: sticky;
     top: 80px;
+}
+.right_side:hover{
+    overflow: scroll;
 }
 .right_side{
     font-size: 28px;
