@@ -136,8 +136,36 @@ padding: 13px;
 .left_side span{
     padding: 11px;
 }
-
 .left_side span:hover{
     background-color: #f2f3f5;
 }
-  
+   /* CENTER */
+.center{
+    display: flex;
+    flex-direction: column;
+    width: 59%;
+}
+/* RIGHT_SIDE */
+.right_side{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    width: 19%;
+    float: right;
+    position: sticky;
+    top: 80px;
+}
+.right_side{
+    font-size: 28px;
+    
+}
+.right_side span:hover{
+    background-color: #f2f3f5;
+}
+.right_side a{
+    color: rgb(34, 179, 228);
+}
+#ONE{
+    width: 18px;
+    height: 18px;
+}
